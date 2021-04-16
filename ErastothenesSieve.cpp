@@ -20,7 +20,7 @@ void erastothenesSieve(const int until) {
 			if ((*it_PossibMultiple) % (*it_tempExamine) == 0)
 				it_PossibMultiple = lsieve.erase(it_PossibMultiple);
 			else
-				++it_PossibMultiple;
+				std::next(it_PossibMultiple);
 		}
 	}
 	cout << "The primes between 0 - " << until <<"are:\n";
