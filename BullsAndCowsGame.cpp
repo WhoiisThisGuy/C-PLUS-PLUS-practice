@@ -16,7 +16,7 @@ bulls, that is, has the four digits correct and in the correct order.
 
 using namespace std;
 
-bool isBull(const int& input, const int& index);
+bool isBull(const int& input, const int& number);
 bool isCow(const vector<int>& numbers_vector, const int& input);
 bool isAllBull(const vector<int>& numbers_vector, const vector<int>& inputs_vector);
 bool Userinputs(vector<int>& inputs_vector);
